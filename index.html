@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Promise and Async/await</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand">Practice Promise and Async/await</a>
+        </div>
+      </div>
+    </nav>
+    <div class="col-md-4">
+      <strong>Example 01: With Promise</strong>
+      <hr />
+      <button class="btn btn-primary" onclick="fetch1()">Fetch Data</button>
+      <hr />
+      <div id="result1">Data</div>
+    </div>
+    <div class="col-md-4">
+      <strong>Example 02: With Async and await</strong>
+      <hr />
+      <button class="btn btn-primary" onclick="fetch2()">Fetch Data</button>
+      <hr />
+      <div id="result2">Data</div>
+    </div>
+    <div class="col-md-4">
+      <strong>Example 03: With Fetch API</strong>
+      <hr />
+      <button class="btn btn-primary" onclick="fetch3()">Fetch Data</button>
+      <hr />
+      <div id="result3">Data</div>
+    </div>
+  </body>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</html>
